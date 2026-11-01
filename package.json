@@ -1,0 +1,9 @@
+{
+  "name": "whatsapp-clinica",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": { "start": "node src/server.mjs", "test": "node --test", "check": "node --check src/server.mjs && node --check src/core.mjs && node --check src/whatsapp.mjs && node --check src/backup.mjs && node --check public/app.js" },
+  "dependencies": { "@whiskeysockets/baileys": "7.0.0-rc14", "qrcode": "1.5.4", "pino": "9.6.0" }
+}
