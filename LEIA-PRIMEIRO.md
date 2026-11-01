@@ -1,3 +1,11 @@
+> **AVISO — ESTE REPOSITORIO E HISTORICO E ESTA INCOMPLETO NA BRANCH main.**
+> O codigo completo do sistema integrado ao ZoeConnect (incluindo o worker Windows e o instalador atualizado) esta em [CRM-Clinica-Girlane-Ferreira/conecta-windows](https://github.com/hericlesnutri/CRM-Clinica-Girlane-Ferreira/tree/master/conecta-windows).
+> Para novas instalacoes do sistema que agenda mensagens pelo CRM, **use somente o pacote conecta-windows do ZoeConnect**, conforme o [manual principal](https://github.com/hericlesnutri/CRM-Clinica-Girlane-Ferreira/blob/master/README.md).
+> Esta branch historica nao possui ainda as pastas `src`, `public`, `test` e `windows` necessarias ao funcionamento da versao independente. **Nao execute INSTALAR.cmd deste repositorio em uma instalacao nova**, pois faltam arquivos. O ZIP original existente no computador pode conter esses arquivos, mas o GitHub nao e uma copia completa desta versao.
+> Nao inclua no GitHub `data`, `backups`, `session.key`, `config.json` nem credenciais.
+
+---
+
 # Clínica Conecta — primeira versão
 
 Painel local para cadastrar pacientes, programar mensagens e enviar lembretes de consultas pelo WhatsApp. Feito para um computador Windows, um usuário e um número de WhatsApp.
